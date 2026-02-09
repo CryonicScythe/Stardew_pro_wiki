@@ -1,0 +1,13 @@
+body {
+    background-image: url("images/stardew_night.png");
+    background-repeat: no-repeat;
+    background-position: sticky;
+    background-attachment: fixed;
+}
+main {
+    margin-left: 7em;
+    margin-right: 7em;
+    background-color: white;
+    opacity: 0.7;
+    padding: 3em;
+}

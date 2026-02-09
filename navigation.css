@@ -1,0 +1,19 @@
+nav {
+    top: 0;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 2em;
+    padding: 0;
+    font-size: 120%;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid #475F8E;
+    background-color: #303239;
+    color: #145DE6;
+    padding: 0.5em;
+}

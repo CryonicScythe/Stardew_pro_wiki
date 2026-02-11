@@ -17,3 +17,7 @@ nav a {
     color: #145DE6;
     padding: 0.5em;
 }
+nav a:hover {
+    background-color: #145DE6;
+    color: #303239;
+}

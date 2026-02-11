@@ -4,10 +4,32 @@ body {
     background-position: sticky;
     background-attachment: fixed;
 }
+header {
+    margin-left: 7em;
+    margin-right: 7em;
+    background-color: #4067B7;
+    opacity: 0.7;
+    padding: 2em;
+    margin-bottom: 1.5em;
+    color: white;
+}
 main {
     margin-left: 7em;
     margin-right: 7em;
     background-color: white;
     opacity: 0.7;
     padding: 3em;
+}
+article, dl.dt {
+    width: 20vw;
+    border: 3px solid #145DE6;
+    padding: 0.8em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+article:hover {
+    border: 3px solid #303239;
+}
+article.striked {
+    text-decoration: line-through;
 }

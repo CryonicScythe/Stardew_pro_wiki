@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navigation.css">
     <title>Stardew Efficiency</title>
@@ -47,19 +50,19 @@
             <h3>Fish</h3>
             <h3>River</h3>
             <dl>
-                <article id="checkbox" class="striked">
+                <article onclick="change('checkbox1')" id="checkbox1">
                     <dt>Sunfish</dt>
                     <dd>Also found in summer</dd>
                 </article>
-                <article id="checkbox" class="striked">
+                <article onclick="change('checkbox2')" id="checkbox2">
                     <dt>Catfish</dt>
                     <dd>Also found in fall</dd>
                 </article>
-                <article>
+                <article onclick="change('checkbox3')" id="checkbox3">
                     <dt>Shad</dt>
                     <dd>Also found in summer and fall</dd>
                 </article>
-                <article>
+                <article onclick="change('checkbox4')" id="checkbox4">
                     <dt>Bream</dt>
                     <dd>Also found in every season</dd>
                 </article>
@@ -232,5 +235,15 @@
     <footer>
 
     </footer>
+    <script>
+        function change(id) {
+            check = document.getElementById(id)
+            check.classList.toggle("striked")
+        }
+    </script>
+    <!--
+    Unnecessary, code struggling to work compared to above script
+    <script src="checklist.js"></script>
+    -->
 </body>
 </html>

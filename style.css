@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
 }
 header {
+    font-family: "Fraunces", serif;
     margin-left: 7em;
     margin-right: 7em;
     background-color: #4067B7;
@@ -14,11 +15,16 @@ header {
     color: white;
 }
 main {
+    font-family: "Open Sans", sans-serif;
     margin-left: 7em;
     margin-right: 7em;
     background-color: white;
     opacity: 0.7;
     padding: 3em;
+}
+h1, h2, h3 {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
 }
 article, dl.dt {
     width: 20vw;

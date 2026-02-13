@@ -9,9 +9,15 @@ const strikeBox = document.getElementById("checkbox");
 
 
 // Strikethrough text on click
-strikeBox.addEventListener('click', toggleEvent)
+strikeBox.addEventListener("click", toggleEvent)
 
 function toggleEvent() {
     strikeBox.classList.toggle("striked")
-    strikeBox.innerHTML
 }
+
+
+// Function in html code
+function change(id) {
+        check = document.getElementById(id)
+        check.classList.toggle("striked")
+    }

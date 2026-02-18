@@ -14,10 +14,10 @@ nav a {
     display: block;
     border: 1px solid #475F8E;
     background-color: #303239;
-    color: #145DE6;
+    color: #87AEF8;
     padding: 0.5em;
 }
 nav a:hover {
-    background-color: #145DE6;
+    background-color: #87AEF8;
     color: #303239;
 }

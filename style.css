@@ -29,17 +29,17 @@ main {
     opacity: 0.7;
     padding: 3em;
 }
-article {
+aside {
     width: 20vw;
     border: 3px solid #145DE6;
     padding: 0.8em;
     margin-top: 0.4em;
     margin-bottom: 0.4em;
 }
-article:hover {
+aside:hover {
     border: 3px solid #303239;
 }
-article.striked {
+aside.striked {
     text-decoration: line-through;
     background-color: #303239;
     color: #87AEF8;

@@ -35,6 +35,14 @@ aside {
     padding: 0.8em;
     margin-top: 0.4em;
     margin-bottom: 0.4em;
+
+    display: grid;
+    grid-template-columns: 5vw auto 10vw;
+    grid-template-rows: 1.5vw auto;
+    grid-template-areas: 
+        "image item item"
+        "image info info";
+    padding: 0.5em;
 }
 aside:hover {
     border: 3px solid #303239;
@@ -43,4 +51,14 @@ aside.striked {
     text-decoration: line-through;
     background-color: #303239;
     color: #87AEF8;
+}
+figure {
+    margin: 0px;
+    grid-area: image;
+}
+dt {
+    grid-area: item;
+}
+dd {
+    grid-area: info;
 }

@@ -32,6 +32,9 @@ main {
 article {
     margin-left: 50px;
 }
+article.hidden {
+    display: none;
+}
 aside {
     width: 20vw;
     border: 3px solid #145DE6;

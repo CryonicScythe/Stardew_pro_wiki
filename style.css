@@ -34,6 +34,10 @@ div#collapse {
     border: 1px solid #4067B7;
     margin-bottom: 20px;
 }
+div.summary {
+    display: flex;
+    float: right;
+}
 h2 {
     background-color: #87AEF8;
     margin-top: 0px;

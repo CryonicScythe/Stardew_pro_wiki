@@ -29,14 +29,17 @@ main {
     opacity: 0.7;
     padding: 3em;
 }
+main#money {
+    display: flex;
+    justify-content: space-between;
+}
 div#collapse {
     width: 30vw;
     border: 1px solid #4067B7;
     margin-bottom: 20px;
 }
-div.summary {
-    display: flex;
-    float: right;
+div.text {
+    width: 30vw;
 }
 h2 {
     background-color: #87AEF8;

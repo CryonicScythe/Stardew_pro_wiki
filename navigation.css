@@ -24,3 +24,25 @@ nav a:hover {
 i {
     margin-right: 15px;
 }
+
+
+body {
+    background-image: url("images/stardew_night.png");
+    background-repeat: no-repeat;
+    background-position: sticky;
+    background-attachment: fixed;
+}
+header {
+    font-family: "Fraunces", serif;
+    margin-left: 7em;
+    margin-right: 7em;
+    background-color: #4067B7;
+    opacity: 0.7;
+    padding: 2em;
+    margin-bottom: 1.5em;
+    color: white;
+}
+h1, h2, h3 {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+}

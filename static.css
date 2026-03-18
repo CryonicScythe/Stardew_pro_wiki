@@ -46,3 +46,20 @@ h1, h2, h3 {
     font-family: "Fraunces", serif;
     font-weight: 600;
 }
+
+
+main {
+    font-family: "Open Sans", sans-serif;
+    margin-left: 7em;
+    margin-right: 7em;
+    background-color: white;
+    opacity: 0.7;
+    padding: 3em;
+}
+main p, main ul {
+    width: 30vw;
+}
+main.content {
+    display: flex;
+    justify-content: space-between;
+}

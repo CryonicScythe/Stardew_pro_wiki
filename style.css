@@ -52,3 +52,15 @@ dt {
 dd {
     grid-area: info;
 }
+table {
+    width: 70vw;
+}
+th {
+    background-color: #303239;
+    opacity: 0.7;
+    color: #87AEF8;
+}
+td {
+    background-color: #87AEF8;
+    opacity: 0.7;
+}

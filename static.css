@@ -34,8 +34,8 @@ body {
 }
 header {
     font-family: "Fraunces", serif;
-    margin-left: 7em;
-    margin-right: 7em;
+    margin-left: 5.5vw;
+    margin-right: 5.5vw;
     background-color: #4067B7;
     opacity: 0.7;
     padding: 2em;
@@ -50,10 +50,9 @@ h1, h2, h3 {
 
 main {
     font-family: "Open Sans", sans-serif;
-    margin-left: 7em;
-    margin-right: 7em;
-    background-color: white;
-    opacity: 0.7;
+    margin-left: 5.5vw;
+    margin-right: 5.5vw;
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 3em;
 }
 main p, main ul {

@@ -31,6 +31,7 @@ body {
     background-repeat: no-repeat;
     background-position: sticky;
     background-attachment: fixed;
+    margin: 0;
 }
 header {
     font-family: "Fraunces", serif;
@@ -61,4 +62,15 @@ main p, main ul {
 main.content {
     display: flex;
     justify-content: space-between;
+}
+
+
+footer {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 3em;
+    padding: 8px;
+}
+footer p {
+    margin: 0;
 }

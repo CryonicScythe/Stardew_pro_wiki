@@ -57,16 +57,46 @@ table {
 }
 td {
     max-width: 14.8vw;
+    background-color: #87AEF8;
+    opacity: 0.7;
 }
 th {
     background-color: #303239;
     opacity: 0.7;
     color: #87AEF8;
 }
-td {
-    background-color: #87AEF8;
-    opacity: 0.7;
-}
 td ul  {
     max-width: 15vw;
+}
+
+@media screen and (max-width: 40em) {
+    div#collapse {
+        width: 80vw;
+    }
+    aside {
+        width: 50vw;
+
+        grid-template-columns: 15vw auto 10vw;
+        grid-template-rows: 5vw auto;
+        grid-template-areas: 
+            "image item item"
+            "image item item"
+            "info info info";
+    }
+
+    table {
+        max-width: auto;
+    }
+    td, th {
+        max-width: 200px;
+        width: 200px;
+    }
+    td ul {
+        margin: 2px;
+        padding: 0px
+    }
+    ul li {
+        list-style-type: none;
+        width: 200px;
+    }
 }

@@ -74,3 +74,17 @@ footer {
 footer p {
     margin: 0;
 }
+
+
+@media screen and (max-width: 40em) {
+    header, main {
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    main.content {
+        flex-wrap: wrap;
+    }
+    main p, main ul {
+        width: 50vw;
+    }
+}

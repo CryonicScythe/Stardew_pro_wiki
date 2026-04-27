@@ -681,18 +681,9 @@
         <p>Content is available under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">Commons Attribution-NonCommercial-ShareAlike</a> unless otherwise noted.</p>
     </footer>
     <script>
-        const state = document.getElementById(saveState);
-        const STORAGE_KEY = 'striked';
-
-        const savedClass = localStorage.getItem(STORAGE_KEY);
-        if (savedClass) {
-            state.className = savedClass;
-        }
-
         function change(id) {
-            check = document.getElementById(id);
-            check.classList.toggle("striked");
-            localStorage.setItem(STORAGE_KEY, state.className);
+            check = document.getElementById(id)
+            check.classList.toggle("striked")
         }
     </script> 
     <script src="checklist.js"></script>

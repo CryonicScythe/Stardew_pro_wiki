@@ -31,7 +31,6 @@
         </hgroup>
     </header>
     <main class="content">
-        <div id="saveState">
         <div class="text">
         <div id="collapse">
         <h2 id="spring"><i class="fa fa-caret-down"></i>Spring</h2>
@@ -648,7 +647,6 @@
         </article>
         </div>
         </div>
-        </div>
 
         <div id="collapse" class="summary">
         <h2>Important Notes</h2>
@@ -681,19 +679,24 @@
         <p>Content is available under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">Commons Attribution-NonCommercial-ShareAlike</a> unless otherwise noted.</p>
     </footer>
     <script>
-        const state = document.getElementById(saveState);
-        const STORAGE_KEY = 'striked';
-
-        const savedClass = localStorage.getItem(STORAGE_KEY);
-        if (savedClass) {
-            state.className = savedClass;
-        }
+        let items = JSON.parse(localStorage.getItem("classStorage")) || [];
 
         function change(id) {
-            check = document.getElementById(id);
-            check.classList.toggle("striked");
-            localStorage.setItem(STORAGE_KEY, state.className);
+            check = document.getElementById(id)
+            check.classList.toggle("striked")
+            if (check.className == "striked") {
+                items.push(check)
+            }
+            else {
+                items = items.filter(check => check !== "newItem")
+            }
+            localStorage.setItem("classStorage", JSON.stringify(items))
         }
+
+        let fullList = document.querySelector(".items")
+        items.forEach(check => {
+            
+        });
     </script> 
     <script src="checklist.js"></script>
 </body>

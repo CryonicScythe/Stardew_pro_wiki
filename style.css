@@ -21,17 +21,18 @@ article.hidden {
 }
 aside {
     width: 25vw;
+    height: 3vw;
     border: 3px solid #145DE6;
     padding: 0.8em;
     margin-top: 0.4em;
     margin-bottom: 0.4em;
 
     display: grid;
-    grid-template-columns: 5vw auto 10vw;
+    grid-template-columns: 5vw auto;
     grid-template-rows: 1.5vw auto;
     grid-template-areas: 
-        "image item item"
-        "image info info";
+        "image item"
+        "image info";
     padding: 0.5em;
 }
 aside:hover {
